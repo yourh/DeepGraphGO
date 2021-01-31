@@ -1,0 +1,28 @@
+name: bp
+model_path: models
+mlb: data/bp_go.mlb
+results: results
+
+network:
+  pid_list: data/ppi_pid_list.txt
+  weight_mat: data/ppi_mat.npz
+  blastdb: data/ppi_blastdb
+  dgl: data/ppi_dgl_top_100
+  feature: data/ppi_interpro.npz
+
+train:
+  name: train
+  pid_list_file: data/bp_train_pid_list.txt
+  fasta_file: data/bp_train.fasta
+  pid_go_file: data/bp_train_go.txt
+
+valid:
+  name: valid
+  pid_list_file: data/bp_valid_pid_list.txt
+  fasta_file: data/bp_valid.fasta
+  pid_go_file: data/bp_valid_go.txt
+
+test:
+  name: test
+  pid_list_file: data/bp_test_pid_list.txt
+  fasta_file: data/bp_test.fasta

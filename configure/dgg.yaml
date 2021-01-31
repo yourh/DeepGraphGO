@@ -1,0 +1,12 @@
+name: DeepGraphGO
+
+model:
+  hidden_size: 512
+  num_gcn: 2
+
+train:
+  epochs_num: 10
+  batch_size: 40
+
+test:
+  batch_size: 40
