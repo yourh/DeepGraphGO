@@ -1,5 +1,5 @@
 # DeepGraphGO
-DeepGraphGO: graph neural net for large-scale, multispecies protein function prediction
+DeepGraphGO: graph neural network for large-scale, multispecies protein function prediction
 
 ## Requirements
 
