@@ -5,7 +5,7 @@
 * ppi_interpro.npz: the intepro binary feature of each protein in ppi_pid_list.txt
 * ppi_blastdb: the blastdb of ppi.fasta
 
-Please use the following commands to extract the archive:
+Please use the following commands to extract the archive if unzip command doesn't work:
 
 `pip install dtrx`
 
